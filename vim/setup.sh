@@ -3,8 +3,8 @@ rm -rf ~/.vimrc
 rm -rf ~/.vim
 rm -rf ~/.viminfo
 
-# Clone repository
-git clone https://github.com/aayustark007/dotfiles.git
+# Clone repository (idiot! its already cloned!!)
+# git clone https://github.com/aayustark007/dotfiles.git
 
 # Copy vimrc
 cp ~/dotfiles/vim/.vimrc ~/.vimrc

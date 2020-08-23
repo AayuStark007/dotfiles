@@ -1,5 +1,5 @@
 # Install dependencies for basic install
-sudo apt update && sudo apt install ripgrep cmake python3
+sudo apt update && sudo apt install ripgrep cmake python3 -y
 
 # Remove existing artefacts
 rm -rf ~/.vimrc

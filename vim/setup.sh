@@ -16,7 +16,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 vim -c ':PlugInstall | quit | quit'
 
 # Configure YouCompleteMe
-python3 ~/.vim/plugged/YouCompleteMe/install.py --all
+python3 ~/.vim/plugged/YouCompleteMe/install.py
 
 # Done!
 echo "DONE!"

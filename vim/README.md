@@ -4,6 +4,8 @@ To check this, run `vim --version`.
 If there is a `+python3` flag then it means vim was build with python3 and this config will work.
 
 ## Installation steps for vimrc
+- Ensure python3 headers are installed:
+    - `sudo apt install python3.X-dev` (where X is the minor version)
 - Remove existing vim artefacts
     - `rm -rf ~/.vimrc ~/.vim ~/.viminfo`
 - Clone the repository:
